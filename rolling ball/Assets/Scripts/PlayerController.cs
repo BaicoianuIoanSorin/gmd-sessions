@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+        rb.AddForce(movementVector);
     }
     // // Update is called once per frame
     // void Update()
